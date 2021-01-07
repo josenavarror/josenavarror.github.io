@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos_pn.css">
+    <title>IAW - Proyecto Navidad - JNR</title>
+</head>
+<body>
+    <header>
+        <div id="portada">
+            <h1>VIAJES BOSCO</h1>
+            <p class="slogan">Las mejores aventuras por todo el mundo gestionadas por su propio centro educativo</p>
+            <a href="#introduccion"><img id="flecha" src="img/abajo-1.png" alt="flecha"></a>     
+        </div>
+        <div id="menu">
+            <nav>
+                <a href="index.html">INTRODUCCIÓN</a>&nbsp;&nbsp;
+                <a href="#india">INDIA </a>&nbsp;&nbsp;
+                <a href="#mexico">MÉXICO</a>&nbsp;&nbsp;
+                <a href="#nz">NUEVA ZELANDA</a>&nbsp;&nbsp;
+                <a href="#peru">PERÚ</a>&nbsp;&nbsp;
+                <a href="#islandia">ISLANDIA</a>&nbsp;&nbsp;
+                <a href="#japon">JAPÓN</a>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <section id="introduccion">
+            <h2>NO SUEÑES, VUELA DE VERDAD</h2>
+            <p>Tenemos los mejores aviones hacia destinos de todo el planeta. Sólo dinos dónde quieres ir</p>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <picture>
+                            <img class="grande" src="img/viaje.jpg" alt="Viaje">
+                        </picture>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="india">
+                        <h2>INDIA</h2>
+                        <figure>
+                            <img class="pequena" src="img/india.jpg" alt="India">
+                        </figure>
+                        <figcaption>Haz clic para elegir este destino</figcaption>
+                    </td>
+                    <td id="mexico">
+                        <h2>MÉXICO</h2>
+                        <figure>
+                            <img class="pequena" src="img/mexico.jpg" alt="México">
+                        </figure>
+                        <figcaption>Haz clic para elegir este destino</figcaption>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="nz">
+                        <h2>NUEVA ZELANDA</h2>
+                        <figure>
+                            <img class="pequena" src="img/nuevazelanda.jpg" alt="Nueva Zelanda">
+                        </figure>
+                        <figcaption>Haz clic para elegir este destino</figcaption>
+                    </td>
+                    <td id="peru">
+                        <h2>PERÚ</h2>
+                        <figure>
+                            <img class="pequena" src="img/peru.jpg" alt="Perú">
+                        </figure>
+                        <figcaption>Haz clic para elegir este destino</figcaption>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="islandia">
+                        <h2>ISLANDIA</h2>
+                        <figure>
+                            <img class="pequena" src="img/islandia.jpg" alt="Islandia">
+                        </figure>
+                        <figcaption>Haz clic para elegir este destino</figcaption>
+                    </td>
+                    <td id="japon">
+                        <h2>JAPÓN</h2>
+                        <figure>
+                            <img class="pequena" src="img/japon.jpg" alt="Japón">
+                        </figure>
+                        <figcaption>Haz clic para elegir este destino</figcaption>
+                    </td>
+                </tr>
+            </table>  
+        </section>
+        <section id="formulario">
+            <h2>ENVÍO DE DATOS</h2>
+            <form method="POST" action="">
+                <label for="nombre">NOMBRE</label><br>
+                <input type="text" name="nombre" id="nombre"><br>
+                <label for="apellidos">APELLIDOS</label><br>
+                <input type="text" name="apellidos" id="apellidos"><br>
+                <label for="email">E-MAIL</label><br>
+                <input type="email" name="email" id="email"><br>
+                <fieldset>
+                    <legend>VIAJES DESEADOS</legend>
+                    <input type="checkbox" value="india"><strong>INDIA</strong>
+                    <input type="checkbox" value="mexico"><strong>MÉXICO</strong>
+                    <input type="checkbox" value="nz"><strong>NUEVA ZELANDA</strong>
+                    <input type="checkbox" value="peru"><strong>PERÚ</strong>
+                    <input type="checkbox" value="islandia"><strong>ISLANDIA</strong>
+                    <input type="checkbox" value="japon"><strong>JAPÓN</strong> <br>
+                </fieldset>
+                
+                <button>ENVIAR</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <address>Por José Navarro Roldán - IAW - Proyecto de Navidad <br>Curso 2020/21 - Centro Don Bosco de Villamuriel de Cerrato (Palencia)</address>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/accion_pn.js"></script>
+</body>
+</html>

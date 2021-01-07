@@ -1,0 +1,155 @@
+/*Fichero de estilos para el Proyecto de Navidad - IAW curso 2020/21*/
+
+/*Fuentes **********************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+
+/*Fondo **********************************************************/
+body {
+    background-image:url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom:300px;
+}
+
+/*Fuentes, tamaños, colores...**********************************************************/
+h1,.slogan,a{
+    color:white;
+}
+
+h1{
+    font-family: 'Source Sans Pro','Lucida Sans';
+    font-size: 5em;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Source Sans Pro','Lucida Sans';
+    font-size:3em;
+    font-weight:700;
+    /*line-height: 0.5; El título "No sueñes..." queda fuera del fondo*/
+}
+
+a{
+    text-decoration: none;
+}
+
+.slogan{
+    font-family: 'Merriweather', 'Lucida Sans';
+    font-style: italic;
+    font-size: 2em;
+    font-stretch: expanded;
+}
+
+/*Formulario **************************************************/
+label,button,legend,strong{
+    font-family: 'Source Sans Pro','Lucida Sans';
+}
+
+label,legend,strong{
+    font-size:0.8em;
+    color:#484b50;
+}
+
+label,input,button{
+    margin:0 40px;
+    line-height: 2;
+}
+
+input[type="text"],input[type="email"]{
+    width:820px;
+    background-color:#cad1ce;
+    border-color:#888d8b;
+    font-size:1.5em;
+}
+
+input[type="checkbox"]{
+    margin:15px 15px;
+}
+
+fieldset{
+    margin: 10px 40px;
+}
+
+button{
+    width:370px;
+    background-color:#cad1ce;
+    margin-bottom:40px;
+    color:#484b50;
+    border-color:#484b50;
+}
+
+button:hover{
+    color: white;
+    border-color:#4096a5;
+}
+
+/*Centrados ******************************************************/
+h2,#portada,#menu,address,p,figcaption{
+    text-align:center;
+}
+
+
+/*Capas  **********************************************************/
+#portada{
+    /*position:fixed;
+    bottom:100px;*/
+}
+
+#menu{
+    /*position:fixed;
+    bottom:0;*/
+    background-color:#474b50;
+    padding-top:15px;
+    height:50px;
+    width:900px;
+    margin-left:20%;
+    margin-right:20%;
+    font-family: 'Source Sans Pro','Lucida Sans';
+}
+
+#menu a:hover{
+    background-color:black;
+}
+
+section{
+    width:900px;
+    margin:0 20%;
+    margin-bottom:0;
+    background-color: white;
+}
+
+#formulario{
+    background-color:#cad1ce;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+/*Imágenes **********************************************************/
+.grande{
+    width:800px;
+    height: auto;
+    padding:0 40px;
+}
+
+.pequena{
+    width: 370px;
+    height:auto;
+}
+
+p,figcaption{
+    font-size:1.5em;
+    font-family: 'Merriweather', 'Lucida Sans';
+    font-style: italic;
+}
+
+/*Autor  **********************************************************/
+address{
+    width:900px;
+    margin:0 20%;
+    color:white;
+    font-size:20px;
+    background-color: #99344e;
+}
